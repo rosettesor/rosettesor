@@ -11,4 +11,5 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^$', hello.views.index, name='index'),
+    url(r'^nfl_rainbow/$', hello.views.nfl_rainbow, name='nfl_rainbow')
 )
